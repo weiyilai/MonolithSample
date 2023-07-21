@@ -19,8 +19,8 @@
 
 當有其他 UI 層級建構，例如 Filter 或 ModelBinder ，新增到它們自己的資料夾中時，此問題只會惡化
 
-商務邏輯散佈在 Models 和 Services 資料夾之間，且不會清楚指出哪些資料夾中的哪些類別應該相依於哪些其他類別
+商業邏輯散佈在 Models 和 Services 資料夾之間，且不會清楚指出哪些資料夾中的哪些類別應該相依於哪些其他類別
 
-這種在專案層級缺乏組織的情形經常會導致 [Spaghetti Code](https://deviq.com/antipatterns/spaghetti-code)
+這種在專案分層缺乏的情形經常會導致 [Spaghetti Code](https://deviq.com/antipatterns/spaghetti-code)
 
 參考來源 [All-in-one applications](https://learn.microsoft.com/zh-tw/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures#all-in-one-applications)
