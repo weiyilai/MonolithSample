@@ -6,9 +6,9 @@
 
 以及用於資料(Data)和服務(Services)的其他資料夾
 
-這種方式中，盡量將展示層限制在 Views 資料夾
+這種方式中，展示層在 Views 資料夾
 
-資料存取實作限制在 Data 資料夾中
+資料存取實作在 Data 資料夾中
 
 商業邏輯位於 Services 資料夾內的類別 Application Services (interfaces and implementations)
 
@@ -17,7 +17,7 @@
 
 使用者介面 (UI) 考量 (模型、檢視、控制器) 位於不依字母順序分組在一起的多個資料夾中
 
-當有其他 UI 層級建構，例如 Filter 或 ModelBinder ，新增到它們自己的資料夾中時，此問題只會惡化
+當有其他 UI 層建構，例如 Filter 或 ModelBinder ，新增到它們自己的資料夾中時，此問題只會惡化
 
 商業邏輯散佈在 Models 和 Services 資料夾之間，且不會清楚指出哪些資料夾中的哪些類別應該相依於哪些其他類別
 
